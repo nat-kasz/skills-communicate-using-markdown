@@ -37,3 +37,5 @@ Def bubble_sort(arr):
 				arr[j] = arr[i]
 				arr[i] = key
 ```
+
+<img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
