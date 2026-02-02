@@ -18,3 +18,22 @@ Today learning the `github` markdowns.
 ## Review
 
 __Bold__ is used. Also _italic_.
+
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
+Also adding a python code sample:
+
+```python
+Def bubble_sort(arr):
+	for i in range(len(arr)-1):
+		
+		for j in range(len(arr)-i-1):
+			if arr[j] > arr[i]:
+				key = arr[j] 
+				arr[j] = arr[i]
+				arr[i] = key
+```
